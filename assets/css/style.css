@@ -65,3 +65,60 @@ footer div {
 footer a {
 	color: #024e76;
 }
+
+section {
+	padding: 60px;
+}
+
+/* Hero Style Start */
+.hero {
+	background-image: url("../images/hero-bg.jpg");
+	height: 600px;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+.hero-form {
+	background-color: #fce138;
+	color: #024e76;
+	width: 500px;
+	padding: 20px;
+	border: 3px solid #024e76;
+	position: absolute;
+	bottom: 120px;
+	right: 140px;
+}
+
+.hero-form h3 {
+	font-size: 24px;
+	/* "reduce any possible word wrapping"? */
+	margin: 0;
+}
+
+.hero-form p {
+	margin: 5px 0 15px 0;
+}
+
+.form-input {
+	padding: 7px 15px;
+	font-size: 16px;
+	display: block;
+	width: 100%;
+	margin-bottom: 15px;
+	border: 1px solid #024e76;
+}
+
+.hero-form label {
+	margin: 0 5px;
+}
+
+.hero-form button {
+	background: #024e76;
+	color: #fce138;
+	padding: 10px 20px;
+	border: none;
+	font-size: 16px;
+}
+
+/* Hero Style End */
