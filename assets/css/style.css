@@ -15,6 +15,24 @@ body {
   font-family: Helvetica, Arial, sans-serif;
 }
 
+section {
+	padding: 60px;
+}
+
+/* Utility Classes */
+
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.flex-row {
+  display: flex;
+}
+
 /* apply styles to <header> */
 header {
 	padding: 20px 35px;
@@ -71,12 +89,6 @@ header nav ul li a:hover {
   text-shadow: none;
 }
 
-
-
-section {
-	padding: 60px;
-}
-
 /* Hero Style Start */
 .hero {
 	background-image: url("../images/hero-bg.jpg");
@@ -86,8 +98,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  flex-wrap: wrap;
-  
+  flex-wrap: wrap; 
 }
 
 .hero-cta {
@@ -119,7 +130,6 @@ section {
 
 .hero-form h3 {
 	font-size: 24px;
-	/* "reduce any possible word wrapping"? */
 	margin: 0;
 }
 
@@ -146,6 +156,8 @@ section {
 .hero-form label {
 	margin: 0 5px;
 }
+
+/* CUSTOM RADIO BUTTON AND CHECKBOX STYLES */
 
 /* make default radio buttons and checkbox invisible */
 .checkbox-wrapper input, .radio-wrapper input {
@@ -208,10 +220,13 @@ section {
   content: none;
 }
 
+/* display check mark in label::after when sibling input is checked */
 .checkbox-wrapper input:checked + label::after, 
 .radio-wrapper input:checked + label::after {
   content: "";
 }
+
+/* END CUSTOM RADIO AND CHECKBOX STYLES */
 
 .hero-form button {
 	background: var(--secondary-color);
@@ -236,8 +251,6 @@ section {
 	font-size: 20px;
   margin: 0 auto;
   text-align: center;
-	/* why would this work? */
-	/* display: inline-block; */
 }
 
 /* What We Do Style End */
@@ -340,12 +353,13 @@ section {
 .trainer-1 {
   background-image: url("../images/trainer-1.jpg");
   background-size: cover;
-    /* background: url("../images/trainer-1.jpg") no-repeat top/cover; */
 }
+
 .trainer-2 {
   background-image: url("../images/trainer-2.jpg");
   background-size: cover;
 }
+
 .trainer-3 {
   background-image: url("../images/trainer-3.jpg");
   background-size: cover;
@@ -361,6 +375,7 @@ section {
   overflow: hidden;
 }
 
+/* animated overlay for trainer img */
 .trainer-img::after {
   content: "";
   height: 100%;
@@ -388,7 +403,6 @@ section {
 
 .trainer:hover .trainer-img h3, .trainer:hover .trainer-img h4  {
   top: 0;
-  /* transform: translate(-200px); */
 }
 
 .trainer-img h4 {
@@ -397,7 +411,6 @@ section {
   z-index: 10;
   font-size: 22px;
   transition: .75s;
-  /* transition-delay: .15s; */
 }
 
 
@@ -456,7 +469,6 @@ section {
   text-align: center;
 }
 
-/* specific match */
 .service-grid-item.basic {
   grid-column: 2 / span 1;
 }
@@ -479,6 +491,7 @@ section {
 /* Service Plan Style End */
 
 /* Contact Style Start */
+
 .contact {
 	background: var(--secondary-color);
 }
@@ -564,20 +577,6 @@ h3 {
 }
 /* Contact Style End */
 
-/* Utility Classes */
-
-.text-left {
-	text-align: left;
-}
-
-.text-right {
-	text-align: right;
-}
-
-.flex-row {
-  display: flex;
-}
-
 /* Start Footer Styles */
 footer {
 	background: var(--primary-color);
@@ -605,6 +604,7 @@ footer a {
 /* End Footer Styles */
 
 /* MEDIA QUERIES */
+
 /* SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
   header {
@@ -708,13 +708,11 @@ footer a {
     grid-column: 1 / -1;
   }
   
-
   .service-grid-item.cancel {
     grid-column: 1 / -1;
     grid-row: -1;
     writing-mode: unset;
     transform: none;
-
   }
 }
 
@@ -747,5 +745,4 @@ footer a {
   .contact-form {
     order: 3;
   }
-
 }
