@@ -7,10 +7,14 @@ A single-page brochure website offering fitness services.  Features sections to 
 
 ##### Homescreen
 ![Homescreen Screenshot](./assets/images/screenshot.png)
-##### View
-![View Screenshot](./assets/images/screenshot2.png)
-##### View
-![View Screenshot](./assets/images/screenshot3.png)
+##### What You Do View
+![What You Do View Screenshot](./assets/images/screenshot2.png)
+##### Meet The Trainers View
+![Meet The Trainers View Screenshot](./assets/images/screenshot3.png)
+##### Service Plans View
+![Service Plans View Screenshot](./assets/images/screenshot4.png)
+##### Reach Out View
+![Reach Out View Screenshot](./assets/images/screenshot5.png)
 
 Visit site [here](https://christopherconcannon.github.io/run-buddy/)
 
