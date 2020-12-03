@@ -1,17 +1,50 @@
-# Run Buddy, Inc
+# Run Buddy
 
+![MIT license badge](https://img.shields.io/badge/license-MIT-green)
 
-## Purpose
-A website that offers fitness training services.
+## Description
+A single-page brochure website offering fitness services.  Features sections to describe company mission, highlight steps to receive services, introduce the team, and contact the business.
 
-## Built With  
-* HTML
-* CSS
+##### Homescreen
+![Homescreen Screenshot](./assets/images/screenshot.png)
+##### View
+![View Screenshot](./assets/images/screenshot2.png)
+##### View
+![View Screenshot](./assets/images/screenshot3.png)
 
-## Website
-https://lernantino.github.io/run-buddy/
+Visit site [here](https://christopherconcannon.github.io/run-buddy/)
 
-## Contribution
-Made with 💘 by Christopher Concannon
+## Table of Contents
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Technologies](#technologies)
+  * [Contributing](#contributing)
+  * [Testing](#testing)
+  * [Questions](#questions)
+  
+## Installation
+Clone project to a directory on your local machine and cd into run-buddy directory. 
 
-### &copy;2019 Run Buddy, Inc
+## Usage
+Open index.html file in browser of your choice to navigate through the site.
+
+## License 
+This project is covered under the MIT license 
+
+## Technologies 
+HTML5, CSS3
+
+## Contributing
+To see the guidelines adopted for contributing to this project, please view the [Contributor Covenant](https://www.contributor-covenant.org/version/2/0/code_of_conduct/code_of_conduct.txt)
+
+## Testing
+Tests coming soon
+
+## Questions
+Visit me at GitHub  
+[christopherConcannon](https://github.com/christopherConcannon)
+  
+If you have any questions or would like to contact me, please email me at  
+[cmcon@yahoo.com](mailto:cmcon@yahoo.com)
+

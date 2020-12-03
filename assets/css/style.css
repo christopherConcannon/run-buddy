@@ -290,7 +290,7 @@ header nav ul li a:hover {
 }
 
 .step:not(:last-child) {
-  border-bottom: 1px solidvar(--tertiary-color);
+  border-bottom: 1px solid var(--tertiary-color);
 }
 
 .step h3 {
